@@ -18,7 +18,7 @@ export const Pokemon = ({ pokemon }) => {
       />
       <h1 className="Card--name">{name}</h1>
       <span className="Card--details">
-        {data.types.map(poke => poke.type.name).join(", ")}
+        {data.types.map((poke) => poke.type.name).join(", ")}
       </span>
     </div>
   );

@@ -1,20 +1,20 @@
-import React from "react";
-import useSWR from "swr";
+import React from 'react'
+import useSWR from 'swr'
 
 const baseUrl = 'https://data.police.uk/api/crimes-street/all-crime'
 
-export const useRequest = query => {
+export const useRequest = (query) => {
   if (!query) {
-    throw new Error("Path is required");
+    throw new Error('Path is required')
   }
-  const { data, error } = useSWR(`${baseUrl}${query}`);
+  const { data, error } = useSWR(`${baseUrl}${query}`)
 
   if (error) {
-    return <div> Error... </div>;
+    return <div> Error... </div>
   }
   if (!data) {
-    return <div> Loading... </div>;
+    return <div> Loading... </div>
   }
 
-  return { data };
-};
+  return { data }
+}

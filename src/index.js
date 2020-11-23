@@ -1,17 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { SWRConfig } from "swr";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import App from "./App";
+import App from './App'
 
-const fetcher = (...args) => fetch(...args).then(res => res.json());
-
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root')
 ReactDOM.render(
   <React.StrictMode>
-    <SWRConfig value={{ fetcher }}>
       <App />
-    </SWRConfig>
   </React.StrictMode>,
   rootElement
-);
+)

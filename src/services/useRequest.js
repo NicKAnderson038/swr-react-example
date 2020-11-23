@@ -1,5 +1,4 @@
 import React from "react";
-import { isUndefined } from 'lodash'
 import useSWR from "swr";
 
 export const useRequest = url => {
@@ -14,7 +13,6 @@ export const useRequest = url => {
   if (!data) {
     return <div> Loading... </div>;
   }
-  console.log(data)
-  const res = isUndefined(data) ? [] : data 
+
   return { data };
 };

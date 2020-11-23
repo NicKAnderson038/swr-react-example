@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/swr-react-example/static/css/main.b29c9779.chunk.css",
+    "main.js": "/swr-react-example/static/js/main.c95cd4ab.chunk.js",
+    "main.js.map": "/swr-react-example/static/js/main.c95cd4ab.chunk.js.map",
+    "runtime-main.js": "/swr-react-example/static/js/runtime-main.b2c8bcf8.js",
+    "runtime-main.js.map": "/swr-react-example/static/js/runtime-main.b2c8bcf8.js.map",
+    "static/js/2.e65e0cdf.chunk.js": "/swr-react-example/static/js/2.e65e0cdf.chunk.js",
+    "static/js/2.e65e0cdf.chunk.js.map": "/swr-react-example/static/js/2.e65e0cdf.chunk.js.map",
+    "index.html": "/swr-react-example/index.html",
+    "precache-manifest.d49369fcccda4cf6af1926e4aa479c4e.js": "/swr-react-example/precache-manifest.d49369fcccda4cf6af1926e4aa479c4e.js",
+    "service-worker.js": "/swr-react-example/service-worker.js",
+    "static/css/main.b29c9779.chunk.css.map": "/swr-react-example/static/css/main.b29c9779.chunk.css.map",
+    "static/js/2.e65e0cdf.chunk.js.LICENSE.txt": "/swr-react-example/static/js/2.e65e0cdf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2c8bcf8.js",
+    "static/js/2.e65e0cdf.chunk.js",
+    "static/css/main.b29c9779.chunk.css",
+    "static/js/main.c95cd4ab.chunk.js"
+  ]
+}

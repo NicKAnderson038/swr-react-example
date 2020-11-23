@@ -1,11 +1,13 @@
 import React from "react";
 import useSWR from "swr";
 
-export const useRequest = url => {
-  if (!url) {
+baseUrl = 'https://data.police.uk/api/crimes-street/all-crime'
+
+export const useRequest = query => {
+  if (!query) {
     throw new Error("Path is required");
   }
-  const { data, error } = useSWR(url);
+  const { data, error } = useSWR(`${baseUrl}${query}`);
 
   if (error) {
     return <div> Error... </div>;

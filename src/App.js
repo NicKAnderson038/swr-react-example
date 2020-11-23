@@ -16,9 +16,8 @@ export default function App() {
 }
 
 function Crimes() {
-  const url = "https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592&date=2019-10";
-
-  const { data } = useRequest(url);
+  const query = '?lat=52.629729&lng=-1.131592&date=2019-10'
+  const { data } = useRequest(query);
 
   return (!isUndefined(data) &&
     <DisplayCrimes

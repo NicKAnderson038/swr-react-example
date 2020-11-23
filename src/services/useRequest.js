@@ -1,7 +1,7 @@
 import React from "react";
 import useSWR from "swr";
 
-baseUrl = 'https://data.police.uk/api/crimes-street/all-crime'
+const baseUrl = 'https://data.police.uk/api/crimes-street/all-crime'
 
 export const useRequest = query => {
   if (!query) {
